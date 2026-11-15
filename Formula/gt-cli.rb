@@ -1,5 +1,5 @@
 class GtCli < Formula
-  desc "Stacked-PR CLI with GitHub Stack synchronization and optional Graphite submission"
+  desc "Stacked-PR CLI with GitHub Stack sync and optional Graphite submission"
   homepage "https://github.com/tianrendong/graphite"
   url "https://github.com/tianrendong/graphite/releases/download/v0.6.47/tianrendong-graphite-0.6.47.tgz"
   sha256 "e48f3766cb5f1aeacbf2af2c0f62b794c7bbb2cdd322d5e842166f984c0e555a"
