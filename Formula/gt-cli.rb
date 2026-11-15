@@ -1,8 +1,8 @@
-class Graphite < Formula
+class GtCli < Formula
   desc "Stacked-PR CLI with GitHub Stack sync and optional Graphite submission"
-  homepage "https://github.com/tianrendong/graphite"
-  url "https://github.com/tianrendong/graphite/releases/download/v0.6.47/tianrendong-graphite-0.6.47.tgz"
-  sha256 "e48f3766cb5f1aeacbf2af2c0f62b794c7bbb2cdd322d5e842166f984c0e555a"
+  homepage "https://github.com/tianrendong/gt-cli"
+  url "https://github.com/tianrendong/gt-cli/releases/download/v0.6.48/tianrendong-gt-cli-0.6.48.tgz"
+  sha256 "28cf6c52c1c4ec4c93a18e67a809fa1716bfbca1bf45aeed711c45389fd65eb1"
   license "AGPL-3.0-only"
 
   def install
