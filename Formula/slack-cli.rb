@@ -1,8 +1,8 @@
 class SlackCli < Formula
   desc "CLI for searching and reading Slack"
   homepage "https://github.com/tianrendong/slack-cli"
-  url "https://github.com/tianrendong/slack-cli/releases/download/v0.1.0/slack-cli-0.1.0.tgz"
-  sha256 "352988c82846dcaa7c8ae7fb4ae44f911a560175f6c3b85b8a940003dfafbe7b"
+  url "https://github.com/tianrendong/slack-cli/releases/download/v0.1.1/slack-cli-0.1.1.tgz"
+  sha256 "d2bfbb15793eea9d6a5caf9043f28c97f658fa1168da8009899f732de2b9161e"
 
   depends_on "bun"
 
@@ -27,6 +27,6 @@ class SlackCli < Formula
   end
 
   test do
-    assert_match "slack auth status", shell_output("#{bin}/slack --help")
+    assert_match "slack download <file-id|slack-file-url>", shell_output("#{bin}/slack download --help")
   end
 end
